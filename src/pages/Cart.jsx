@@ -69,9 +69,9 @@ flex flex-col
 :
 
 
-(<div>
- <p> Your cart is empty!</p>
-<NavLink to='/'> <button>Shop Now</button></NavLink>
+(<div className='flex flex-col gap-y-10 w-full  h-[90vh] justify-center items-center'>
+ <p className='font-semibold text-2xl'> Your cart is empty!</p>
+<NavLink to='/'> <button className='rounded-md px-16 py-2 font-semibold bg-green-500'>Shop Now</button></NavLink>
 </div>)
 
 
