@@ -22,15 +22,16 @@ export const Cart = () => {
   return (
 
     
-    <div className='flex flex-row justify-center items-center '>
+    <div className='flex flex-row  ml-[17%] mr-[17%]
+    '>
       
 {
 
 cart.length >0 ? 
-(<div className='flex max-w-[65%]  '>
+(<div className='flex w-[100%] flex-row flex-wrap '>
 
 
-<div className='divide-y w-[90%] divide-slate-700 
+<div className='divide-y max-w-[66%] divide-slate-700 
 flex flex-col 
 '>
 {
@@ -40,7 +41,7 @@ flex flex-col
   })}
 </div>
 
-<div className='flex flex-col w-[50%] justify-between items-center gap-y-6'>
+<div className='flex flex-col w-[34%] justify-between items-center gap-y-6'>
   
 <div className='mt-12 flex flex-col items-center justify-center'> 
   <div className='mt-1 font-bold text-green-500'>Your Cart</div>
